@@ -1,0 +1,43 @@
+
+	body {
+		background-color: #FF0400;
+	}
+	article {
+      	margin: 20px 40px;
+      	background-color: white;
+  	}
+  	h2 {
+  		background-color: black;
+  		color: white;
+
+  	}
+
+  	p {
+  		color: red;
+  		font-size: 14px;
+  	}
+
+  	li {
+  		font-family: Helvetica, Arial, sans;
+  		list-style: none;
+  	}
+
+  	a {
+  		color: pink;
+  		text-decoration: none;
+
+
+  	}
+  	a:hover {
+    background-color: #111;
+    }
+
+  	
+
+li {
+    display: inline;
+}
+
+
+  	
+  
