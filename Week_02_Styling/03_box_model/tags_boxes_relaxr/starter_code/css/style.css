@@ -108,7 +108,43 @@ a {
   list-style: decimal;
 }
 
+/* Image styles */
+.contentImage {
+  border: 3px;
+  border-color: #131e27;
+  max-width: 480px;
+}
 
+/* Feature Box */
+.featureBox {
+  max-width: 480px;
+  padding: 20px;
+  font-size: 20px;
+}
+
+.featureBox h1 {
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+.featureBox ul, .featureBox ol {
+  margin-left: 30px;
+}
+
+
+.featureBox strong {
+  background: #eaeaea;
+  border: 1px solid;
+  border-color: #6A6C6E;
+  padding: 4px;
+  color: black;
+  font-weight: normal;
+}
+
+.featureBox > *:first-child {
+  padding-top: 0px;
+  margin-top: 0px;
+}
 
 /* Footer */
 .pageFooter {

@@ -134,10 +134,23 @@ Every element in web design is a box.
 
 ###Height = height + padding-top + padding-bottom + border-top + border-bottom
 
+
+---
+
+##Normalize and Reset
+
+###Setting all browsers to a common standard
+* Reset.css will 'zero' everything
+* Normalize is a clean starting point but still has some styling
+
 ---
 
 ![GeneralAssemb.ly](../../img/icons/code_along.png)
 ##Tags & Boxes
 
+---
+
+![GeneralAssemb.ly](../../img/icons/exercise_icon_md.png)
+##Core Style Guide
 
 

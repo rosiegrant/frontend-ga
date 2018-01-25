@@ -1,17 +1,14 @@
-# Nested Selectors: A Core Style Guide
+# Nested Selectors: Tags and Boxes
 
 ### Description
 
-Expand out the style guide to include images and a special feature box.
-
-
+Use nested selectors to target specific elements on the page.
 
 
 ### Requirements and Instructions
 
 #### Images
 
-Expand the corestyles to with a class for content images.
 * This selector and rule should ONLY affect images with this class.
 * There should be a 3px border with a color of #131e27
 * The TOTAL size of the image and border should be no more than exactly half the width of the container (hint: the total container width is 960px)
