@@ -1,0 +1,66 @@
+
+
+
+	body {
+		background-color: #F6F6F6;
+		color: #05080C;
+		font-size: 18px;
+		line-height: 1.5;
+		
+	}
+
+	a, a:visited {
+		color: blue;
+	}
+
+	a:hover {
+		text-decoration: none;
+		color: red;
+	}
+
+	a {
+		transition: color 300ms ease; /* transition should be applied to the starting elemtn*/
+		
+	}
+
+
+	h2 {
+		border-top-style: groove;
+		border-color: #222222;
+		border-top-width: 5px; /* this does not match the comps, but it was in the instructions. */
+		padding-top: 15px;
+
+
+	}
+
+	h3 {
+		font-weight: bolder;
+	}
+	
+
+  	p {
+  		font-family: Georgia, Times, "Times New Roman", serif;
+  		font-size: 14px;
+  	}
+
+  	img {
+  		float: right;
+  		margin-left: 20px;
+  		margin-bottom: 20px;
+  	}
+
+  	th {
+  		background-color: #222222;
+  		color: white;
+
+  	}
+
+  	td {
+  		background-color: #eeeeee
+  	}
+
+
+
+
+
+
