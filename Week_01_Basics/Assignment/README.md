@@ -4,18 +4,25 @@
 
 ###Description
 
-The goal of this first assignment is to identify the different parts of content and apply structure to it. The starter content is an excerpt from Wikipedia's article on the Xia Dynasty of China.  Take this content and apply the appropriate HTML and then give it some basic styling.
+The goal of this first assignment is to identify the different parts of content and apply structure to it. The starter content is an excerpt from Wikipedia's article on the Xia Dynasty of China.  Take this content and apply the appropriate HTML and then give it some basic styling. 
 
 Styling Suggestions:
-- Page background should be #F6F6F6
-- Make the paragraph text the font "Georgia" and use a font stack. (Google "Georgia font stack css.")
-- Make the text the color #05080C
-- Set the page's font-size to 18px and set the line height to 1.5
-- Put 5px solid borders at the top and bottom of the page and use the color #222222
-- Float the Via Dynasty image to the right and give it a little margin on the left
-- Give the table header cells (`th`) a background color of #222222
-- Give the table cells (`td`) a background color of #eeeeee
+- Page background should be #F6F6F6 (done)
 
+- Make the paragraph text the font "Georgia" and use a font stack. (Google "Georgia font stack css.") (done)
+
+- Make the text the color #05080C (done)
+
+- Set the page's font-size to 18px and set the line height to 1.5 (done)
+
+- Put 5px solid borders at the top and bottom of the page and use the color #222222 (done)
+
+- Float the Via Dynasty image to the right and give it a little margin on the left (done)
+
+- Give the table header cells (`th`) a background color of #222222 (done)
+
+- Give the table cells (`td`) a background color of #eeeeee
+(done)
 ---
 
 ###Real-World Applications

@@ -1,14 +1,7 @@
-/*- Page background should be #F6F6F6
-- Make the paragraph text the font "Georgia" and use a font stack. (Google "Georgia font stack css.")
-- Make the text the color #05080C
-- Set the page's font-size to 18px and set the line height to 1.5
-- Put 5px solid borders at the top and bottom of the page and use the color #222222
-- Float the Via Dynasty image to the right and give it a little margin on the left
-- Give the table header cells (`th`) a background color of #222222
-- Give the table cells (`td`) a background color of #eeeeee*/
 
 
-body {
+
+	body {
 		background-color: #F6F6F6;
 		color: #05080C;
 		font-size: 18px;
@@ -16,23 +9,58 @@ body {
 		
 	}
 
+	a, a:visited {
+		color: blue;
+	}
+
+	a:hover {
+		text-decoration: none;
+		color: red;
+	}
+
+	a {
+		transition: color 300ms ease; /* transition should be applied to the starting elemtn*/
+		
+	}
+
+
 	h2 {
 		border-top-style: groove;
 		border-color: #222222;
-		border-top-width: 5px;
+		border-top-width: 5px; /* this does not match the comps, but it was in the instructions. */
 		padding-top: 15px;
 
+
+	}
+
+	h3 {
+		font-weight: bolder;
 	}
 	
 
   	p {
-  		font-family: Georgia;
+  		font-family: Georgia, Times, "Times New Roman", serif;
   		font-size: 14px;
   	}
 
   	img {
   		float: right;
   		margin-left: 20px;
+  		margin-bottom: 20px;
   	}
 
-  	
+  	th {
+  		background-color: #222222;
+  		color: white;
+
+  	}
+
+  	td {
+  		background-color: #eeeeee
+  	}
+
+
+
+
+
+
