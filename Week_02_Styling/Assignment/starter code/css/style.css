@@ -83,6 +83,7 @@ a {
 .benefitscontent h2 {
 	font-size: 40px;
 	font-weight: 600;
+	margin-top: 0px;
 }
 
 .benefitscontent p {
@@ -94,6 +95,7 @@ a {
 	background-image: url("../images/testimonial_bg.jpg");
 	background-position: top center;
   	background-repeat: no-repeat;
+ 	background-size: cover;
   	padding: 80px;
 }
 
