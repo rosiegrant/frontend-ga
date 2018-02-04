@@ -8,25 +8,14 @@
 
 *	Review
 *	Divs, Classes and IDs
-* Developer Tools
-* Browser Variances
+*   Developer Tools
+*   Browser Variances
 *	Semantic HTML
 *	Floats
 *	Layout Lab
 
 ---
 
-##Review
-
----
-
-![Box Model](../../img/class04/box-model.jpg)
-
----
-
-![Layouts](../Assignment/layout_challenge_starter/png/layouts_Page_1.png)
-
----
 
 ##Divs
 
@@ -64,10 +53,84 @@
 
 ---
 
-![GeneralAssemb.ly](../../img/icons/code_along.png)
-##Code-Along: Error Message
+##Review: The Content Box Model
 
-Open error_message in Sublime Text.
+![](http://www.mandalatv.net/itp/drivebys/css/lib/img/box_model.gif)
+
+---
+
+##Another Box Model: Border-box
+
+![Box Model](../../img/class04/box-model.jpg)
+
+---
+
+##How do we use these?
+
+![Layouts](starter_code/layout_challenge/png/layouts_Page_1.png)
+
+
+---
+
+##Dev Tools Review
+
+* Allow us to peek under the hood
+* Crucial for debugging
+* Enable on-the-fly HTML and CSS changes (no SublimeText necessary!)
+* Contains a JavaScript console!
+
+---
+
+##Dev Tools
+
+Go to https://nationalzoo.si.edu/ in Chrome.
+
+OSX: ```command + option + i```
+PC: ```F12```
+
+---
+
+##Dev Tools
+
+Using console:
+* What background color is used for the join link in the top navigation?
+* What font is used on the titles of the hero image?
+* What class(s) are used on the Zoo News Title?
+* What are the dimensions of the logo? What are the actual dimensions of the file?
+
+---
+
+##Browser Variances
+
+Surprise - all browser's are different!
+* HTML/CSS/JS differ, subtly
+* No standard for what a ```h1``` should look like
+* Developing consistent experience == headache
+
+---
+
+##Browser Variances
+
+Review: Reset or Normalize
+
+---
+
+##Reset and Normalize Review
+
+Reset
+
+* Removes browsers' default styles
+* http://meyerweb.com/eric/tools/css/reset/
+
+---
+
+##Reset and Normalize Review
+
+Normalize
+
+* Make all browsers the same while maintaining some default styles
+* You don't have to redeclare some styles
+* https://necolas.github.io/normalize.css
 
 ---
 
@@ -90,65 +153,12 @@ What color is the element's text?
 
 ---
 
-##Dev Tools - What are they?
 
-* Allow us to peek under the hood
-* Crucial for debugging
-* Enable on-the-fly HTML and CSS changes (no SublimeText necessary!)
-* Contains a JavaScript console!
+![GeneralAssemb.ly](../../img/icons/code_along.png)
+##Code-Along: Error Message
 
----
+Open error_message in Sublime Text.
 
-##Dev Tools
-
-Go to https://www.whitehouse.gov in Chrome.
-
-OSX: ```command + option + i```
-PC: ```F12```
-
----
-
-##Dev Tools
-
-Using console:
-* What font is used for the hero article h1?
-* What classes are used on the h2 titles inside the touts (cards)
-* What color is used on the "Get Plugged In" header?
-* What are the dimensions of the logo? What are the actual dimensions of the file?
-
----
-
-##Browser Variances
-
-Surprise - all browser's are different!
-* HTML/CSS/JS differ, subtly
-* No standard for what a ```h1``` should look like
-* Developing consistent experience == headache
-
----
-
-##Browser Variances
-
-Solution: Reset or Normalize
-
----
-
-##Browser Variances
-
-Method 1: Reset
-
-* Removes browsers' default styles
-* http://meyerweb.com/eric/tools/css/reset/
-
----
-
-##Browser Variances
-
-Method 2: Normalize
-
-* Make all browsers the same while maintaining some default styles
-* You don't have to redeclare some styles
-* https://necolas.github.io/normalize.css
 
 ---
 
@@ -185,13 +195,41 @@ The following behave exactly like divs:
 
 ---
 
+##Semantic HTML
+
+![Layouts](starter_code/layout_challenge/png/layouts_Page_5.png)
+
+
+---
+
+##Layout Methods
+
+* Tables
+* Floats
+* Flexbox
+* CSS Grids
+
+---
+
+##Tables are for email layout ONLY
+
+---
+
+## CSS Grids are brand new
+
+Only modern browsers are supported
+
+---
+
+
 #Floats
+
 
 ---
 
 ##Floats
 
-![Floats](../../class04/floats.jpg)
+![Floats](../../img/class04/floats.jpg)
 
 ---
 
@@ -214,7 +252,7 @@ Open ```floating_sections``` in Sublime Text.
 
 ##Floats
 
-![Floats](../../class04/problem_css_float.jpg)
+![Floats](../../img/class04/problem_css_float.jpg)
 
 ---
 
@@ -230,13 +268,7 @@ Open ```floating_sections``` in Sublime Text.
 
 ---
 
-##Layout Lab
-
-Open ```relaxr``` in Sublime Text.
-
----
-
-##Homework: Layout Challenge
+##Layout Challenge
 
 * Create separate HTML file for each layout
 * Use a single CSS file
@@ -244,20 +276,28 @@ Open ```relaxr``` in Sublime Text.
 
 ---
 
-![](../Assignment/layout_challenge_starter/png/layouts_Page_1.png)
+![](starter_code/layout_challenge/png/layouts_Page_1.png)
 
 ---
 
-![](../Assignment/layout_challenge_starter/png/layouts_Page_2.png)
+![](starter_code/layout_challenge/png/layouts_Page_2.png)
 
 ---
 
-![](../Assignment/layout_challenge_starter/png/layouts_Page_3.png)
+![](starter_code/layout_challenge/png/layouts_Page_3.png)
 
 ---
 
-![](../Assignment/layout_challenge_starter/png/layouts_Page_4.png)
+![](starter_code/layout_challenge/png/layouts_Page_4.png)
 
 ---
 
-![](../Assignment/layout_challenge_starter/png/layouts_Page_5.png)
+![](starter_code/layout_challenge/png/layouts_Page_5.png)
+
+---
+
+##Homework: Relaxr Blog
+
+Open ```relaxr``` in Sublime Text.
+
+

@@ -1,0 +1,31 @@
+body {
+	font-family: sans-serif;
+	margin: 30px;
+	line-height: 1.4;
+}
+
+#notification {
+	background:	rgb(245, 230, 230);
+	border: 1px solid rgb(90, 50,50);
+	padding: 5px;
+}
+
+.message {
+	background: orange;
+	margin: 12px 0px 12px 0px;
+	padding: 5px;
+	border:	1px solid black;
+}
+
+.error {
+	background: red;
+	color: white;
+}
+
+.error code {
+	/*find a code tag inside the error class*/
+	font-weight: bold;
+	background: white;
+	color: black;
+	font-weight: lighter;
+}

@@ -37,13 +37,17 @@ Styling Suggestions:
 
 ###Technical Requirements
 
-- Link the navigation to the sections of the page using the 'a' tag and id's
-- Use a unique `title` and unique `h1` tags
-- Show image using `img` tag including unique `alt` attribute
-- Use an external CSS stylesheet to style your pages
-- Select at least 5 elements on the page and apply at least 5 different css properties (`font-size`, `color`, `font-family`, `font-weight`, `text-decoration`) to these elements
-- Use at least 6 different HTML tags (`h1`, `h2`, `h3`, `h4`, `h5`, `h6`, `p`, `ul`, `ol`, `a`, `img`) on your pages
-- Follow naming conventions, maintain consistency across your .html and .css files
+- Link the navigation to the sections of the page using the 'a' tag and id's (done)
+
+- Use a unique `title` and unique `h1` tags (done)
+
+- Show image using `img` tag including unique `alt` attribute (done)
+
+- Use an external CSS stylesheet to style your pages (done)
+
+- Select at least 5 elements on the page and apply at least 5 different css properties (`font-size`, `color`, `font-family`, `font-weight`, `text-decoration`) to these elements (done)
+- Use at least 6 different HTML tags (`h1`, `h2`, `h3`, `h4`, `h5`, `h6`, `p`, `ul`, `ol`, `a`, `img`) on your pages (done)
+- Follow naming conventions, maintain consistency across your .html and .css files (done)
 - Indent nested elements to increase your code's readability
 
 #### Bonus

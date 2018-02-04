@@ -7,3 +7,72 @@
  pageFooter should be blue and 100% width
 
  */
+
+div p {
+	background:	grey;
+	border: 6px solid black;
+	min-height: 100px;
+	margin: 0px;
+}
+
+.threeColStripe:after, .twoFerStripe:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+
+.twoFerStripe {
+	min-width: 100%;
+
+}
+
+.twoFerColumn {
+	min-width: 50%;
+	float:left;
+	padding: 0 10px 10px 10px;
+	box-sizing: border-box;
+}
+.threeColStripe {
+	width: 100%
+}
+
+.threeColColumns {
+	min-width: 33%;
+	float:left;
+	box-sizing: border-box;
+	padding: 0 10px 10px 10px;
+}
+
+.Stripe {
+	width: 100%;
+	box-sizing: border-box;
+	padding: 0 10px 10px 10px;
+}
+/*
+ .placeholder {
+ 	background:	grey;
+ 	min-height: 100px;
+ 	border: 6px solid black;
+ }
+
+.main {
+	width: 70%;
+	float: left;
+	max-height: 200px;
+
+
+}
+
+.sideBar {
+	width: 30%;
+	float: right;
+	max-height: 200px;
+
+
+}
+
+.pageFooter {
+	clear: both; 
+	min-height: 200px;
+}*/
