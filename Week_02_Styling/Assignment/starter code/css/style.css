@@ -19,7 +19,10 @@ body {
 	font-family: 'Open Sans', serif;
 }
 
-
+a {
+	text-decoration: none;
+	color: inherit;
+}
 .header {
 	background-image: url("../images/header_bg.jpg");
 	background-position: top center;
@@ -42,7 +45,7 @@ body {
 
 }
 
-.h1 {
+.heading {
 	color: white;
 	text-align: center;
 	font-size: 48px;
@@ -53,22 +56,101 @@ body {
 .headerbutton-text {
 	color: black;
 	background-color: #f9e42e;
+	font-weight: 800;
 
 }
 
 .button {
-	font-weight: 800;
 	text-align: center;
     padding: 12px 12px;
     display: block;
     font-size: 28px;
     width: 280px;
     border-radius: 5px;
-    box-sizing: border-box;
-    margin: 0 auto;  /*why does this work... */
-
+	margin: 0 auto;  /*why does this work... */
 
 }
+
+.benefits {
+	padding-top: 100px;
+	padding-bottom: 80px;
+}
+
+.benefitscontent {
+	margin: 0px 100px 0px 100px;
+}
+
+.benefitscontent h2 {
+	font-size: 40px;
+	font-weight: 600;
+}
+
+.benefitscontent p {
+	font-size: 13px;
+	font-weight: 200;
+}
+
+.quote {
+	background-image: url("../images/testimonial_bg.jpg");
+	background-position: top center;
+  	background-repeat: no-repeat;
+  	padding: 80px;
+}
+
+.quotecontent {
+	color: white;
+	text-align: center;
+	margin: 0px 48px 0px 48px;
+	max-width: 400px;
+	display: block;
+	margin: 0 auto; /*????????*/
+	font-size: 32px;
+	font-style: italic;
+}
+
+
+.name {
+	font-weight: 600;
+	margin: 0px;
+	font-style: normal;
+}
+
+
+.signup {
+	background-color: yellow;
+	padding: 20px 0px 20px 0px;
+}
+
+.signupbutton-text {
+	color: white;
+	background-color: #033048;
+	font-weight: 600;
+}
+
+.footer {
+	padding: 20px;
+	background-color: black;
+}
+
+.footercontent {
+	color: white;
+	text-align: center;
+}
+
+.footercontent img {
+	padding: 0px 10px 0px 10px;
+	margin: 30px 0px 60px 0px;
+}
+
+.footercontent h2 {
+	color: yellow;
+	font-weight: 800;
+	font-size:40px;
+}
+
+
+
+
 
 
 
