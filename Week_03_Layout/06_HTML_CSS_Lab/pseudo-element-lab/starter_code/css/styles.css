@@ -1,0 +1,60 @@
+
+/*
+    Target the first letter of the first paragraph
+    Give it a font weight of 800
+    A size of 80px
+    and a line-height of 80px
+
+ */
+
+.headerParagraph:first-letter {
+	font-weight: 800;
+	font-size: 80px;
+	line-height: 80px;
+	float:left;
+}
+
+
+
+/*
+
+    Target the first paragraph.  It should have a weight of 600 and be the color darkgoldenrod
+
+ */
+
+ .pseudoText > *:first-child {
+ 	color: goldenrod;
+ }
+
+
+
+
+/*
+
+    Target the links.
+    Links should have the color teal with a weight of 600;
+    A visited link should have the color mediumvioletred.
+
+ */
+
+  .pseudoText a:link {
+  	color: teal;
+  	font-weight:600;
+  }
+
+   .pseudoText a:visited {
+  	color: red;
+
+  }
+
+    .pseudoText a:visited {
+  	color: red;
+
+  }
+
+
+
+
+
+
+
