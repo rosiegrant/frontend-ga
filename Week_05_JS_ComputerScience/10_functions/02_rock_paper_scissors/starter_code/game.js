@@ -14,10 +14,9 @@ function computerChoice() {
 	else if (computerChoice < .66) {
 		return "paper";
 	}
-	else {
 		return "scissors";
 
-	}
+	
 
 };
 
