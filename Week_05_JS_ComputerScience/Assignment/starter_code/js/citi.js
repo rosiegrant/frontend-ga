@@ -3,13 +3,11 @@ jQuery(document).ready(function() {
 
 	//collect user input
 	 jQuery('#submit-btn').click(function(e) {
-	 	console.log("here!");
 
     	e.preventDefault();
 
     	var city = jQuery('#city-type').val().toLowerCase();
 
-    	console.log(city);
 
 
 		// change display based on user input 
