@@ -1,9 +1,10 @@
 jQuery(document).ready(function() {
 
-
+console.log("hereee!");
 
 	//collect user input
-	 jQuery('.submit-btn').click(function(e) {
+	 jQuery('#submit-btn').click(function(e) {
+	 	console.log("here!");
 
     	e.preventDefault();
 
