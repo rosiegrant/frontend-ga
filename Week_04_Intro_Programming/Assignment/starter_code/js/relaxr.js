@@ -3,7 +3,6 @@
 jQuery(document).ready(function() {
 
     jQuery('.readmore').click(function(e) {
-    	console.log("here!");
 
     	e.preventDefault();
 
@@ -15,7 +14,6 @@ jQuery(document).ready(function() {
 	});
 
     jQuery('.readless').click(function(e) {
-    	console.log("here too!");
 
     	e.preventDefault();
 
@@ -23,11 +21,23 @@ jQuery(document).ready(function() {
     	jQuery('#show-this-on-click').slideUp("slow", function() {
 			jQuery('.readmore').show("slow");
 
-    	} );
+    	});
     	
 
 
 	});
+
+	jQuery('.learnmore').click(function(e) {
+
+	    	e.preventDefault();
+
+	    	jQuery('.learnmore').hide();
+	    	jQuery('#learnmoretext').slideDown();
+
+
+	});
+
+
 
 
 })
