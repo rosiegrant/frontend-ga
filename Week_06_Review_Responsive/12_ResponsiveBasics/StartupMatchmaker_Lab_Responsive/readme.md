@@ -10,8 +10,8 @@ You've been asked to build a member company list for Startup Matchmaker that is 
 
 ###Requirements
 
-* The maximum size of the content is 960px wide
-* The member companies should be displayed 2-across at desktop sizes and 1-across on tablet sizes and smaller (768px)
+* The maximum size of the content is 960px wide (/)
+* The member companies should be displayed 2-across at desktop sizes and 1-across on tablet sizes and smaller (768px) (/)
 * The member company logo should center and be above everything except the header at sizes below (and including)768px.
 * The width of the logo for smaller screens should never exceed 35%
 * Put a 1px solid grey border between each member company.  Adjust padding and margin as necessary
@@ -21,9 +21,9 @@ You've been asked to build a member company list for Startup Matchmaker that is 
 ###Steps
 
 * The member company elements are stored in containers with the class "responsiveTileGroupItem".
-    * Set these blocks to be exactly half the available width by default
-    * Use floats to make them display 2-across
-    * Add media queries so that they are 1-across and full width on anything smaller than a 960px screen
+    * Set these blocks to be exactly half the available width by default (/)
+    * Use floats to make them display 2-across (/)
+    * Add media queries so that they are 1-across and full width on anything smaller than a 960px screen (/)
 * Add media queries to the memberCompanyBlock.css to fufill the technical requirements
 
 

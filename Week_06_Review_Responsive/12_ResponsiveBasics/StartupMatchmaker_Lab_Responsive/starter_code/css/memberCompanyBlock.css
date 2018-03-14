@@ -85,3 +85,38 @@
     clear: both;
     padding-top: 20px;
 }
+
+@media screen and (max-width: 768px) {
+    .memberCompanyLogoHaus {
+        float:none;
+        width: 100%;
+        text-align: center;
+
+    }
+
+    .memberCompanyLogoHaus > img {
+        max-width: 35%;
+        margin: 0 auto;
+        margin-bottom: 5px;
+        margin-top: 5px;
+    }
+
+    .memberCompanyLocation {
+        float:right;
+        width: 50%;
+        overflow: hidden;
+
+
+    }
+}
+
+/*The member company logo should center 
+and be above everything except the header 
+at sizes below (and including)768px.*/
+
+
+
+
+
+
+

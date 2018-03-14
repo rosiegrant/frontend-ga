@@ -114,6 +114,8 @@ a {
 .responsiveTileGroupItem {
     padding: 10px;
     overflow: hidden;
+    width: 50%;
+    float: left;
 }
 
 
@@ -125,3 +127,46 @@ a {
     background-color: black;
     padding: 20px;
 }
+
+
+@media screen and (min-width: 960px) {
+    main {
+      width: 960px;
+      margin: 0 auto;
+    }
+
+
+}
+
+
+@media screen and (max-width: 768px) {
+
+    .responsiveTileGroupItem {
+        width: 100%;
+        float: none;
+
+    }
+
+}
+
+
+/*The member company logo should center 
+and be above everything except the header 
+at sizes below (and including)768px.*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
