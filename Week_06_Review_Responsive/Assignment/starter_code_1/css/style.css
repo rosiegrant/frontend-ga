@@ -64,8 +64,7 @@ a {
 
 /* Center the container */
 .container {
-  width: 100%;
-  max-width: 960px;
+  width: 960px;
   margin: 0 auto;
 }
 .logo {
@@ -94,21 +93,6 @@ header nav ul li {
 }
 header nav ul li a {
   color: #f9e42e;
-}
-header nav .line{
-  width: 3em;
-  height: .3em;
-  background: #f9e42e;
-  border-radius: 1em;
-  margin-top: .25em;
-}
-header nav .line:first-of-type{
-  margin-top:.7em;
-}
-header nav li:first-child{
-  float:right;
-  display: none;
-  cursor: pointer;
 }
 
 #hero {
@@ -172,7 +156,7 @@ blockquote {
   font-weight: 300;
   font-style: italic;
   text-align: center;
-  width: 75%;
+  width: 580px;
   margin: 0 auto;
 }
 blockquote span {
@@ -184,13 +168,13 @@ blockquote span {
   margin-top: 80px;
 }
 #posts {
-  width: 73%;
+  width: 700px;
   display: inline-block;
-  margin-right: 1.95%;
+  margin-right: 20px;
   vertical-align: top;
 }
 #sidebar {
-  width: 25%;
+  width: 240px;
   display: inline-block;
   vertical-align: top;
 }
@@ -304,106 +288,111 @@ footer p {
   font-weight: 600;
 }
 
-@media only screen and (max-width: 768px) {
+
+/* Media Queries*/
+@media screen and (max-width: 768px) {
+
+  p, li {
+    font-size: .7em;
+  }
+
   body {
-    font-size: 18px;
+    overflow-x: hidden !important;
   }
-  header {
-    padding: 10px;
+
+
+  .container {
+     max-width: 80%;
+     box-sizing: border-box;
+     overflow: hidden;
   }
-  h3 {
-    font-size: 30px;
+
+  .header-container {
+    display: flex;
+    flex-wrap: wrap;
   }
+
+
   .logo {
-    font-size: 36px;
+    font-size: 1.2em;
   }
+
+  .logo-wrapper {
+    flex-grow: 1;
+  }
+
   header nav {
-    width: 100%;
-    margin: 0;
-  }
-  header nav ul li{
     float: none;
-    display: block;
-    margin: 0;
-    font-size: 18px;
+
   }
-  header nav ul li:first-child{
-    display:block;
-    position: absolute;
-    top:.6em;
-    right:.75em;
-  }
-  header nav ul li a {
+  header nav ul li {
     display: block;
-    width: 100%;
-    padding: 10px 0;
-    border-bottom: 1px solid #ccc;
     text-align: center;
   }
-  header nav ul{
-    height:0;
-    transition:height 1s;
-    overflow: hidden;
+
+  .menu-buttonWrapper {
+    width: 55px;
+    flex-basis: 55px;
+    height: 55px;
+    display: flex;
+    align-items: center;
   }
-  header nav ul.slideDown {
-    height: 10em;
+
+  #menu-button {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
   }
-  #hero {
-    height: auto;
-    padding: 30px 0 50px;
+
+  .menu-nav {
+  flex-basis: 100%;
   }
-  #hero h2 {
-    font-size: 28px;
-    margin: 40px 0 60px;
+
+  .menu-line{
+    height: 2px;
+    width: 100%;
+    background-color: yellow;
+    border-radius: 5px;
   }
-  #benefits {
-    padding: 30px 0;
-  }
-  #benefits p, #benefits ul {
-    width: 82%;
-    margin: 0 auto 20px;
-  }
-  blockquote {
-    font-size: 20px;
-    width: 90%;
-  }
-  #main {
-    margin-top: 25px;
-  }
-  footer .logo, footer ul li {
-    margin-bottom: 30px;
-  }
-  #posts, #sidebar {
-    margin: 0 auto;
-    width: 95%;
+
+  #lines {
     display: block;
   }
-  .post h2 {
-    font-size: 24px;
+
+  #hero {
+    height: auto;
   }
-  .post p {
-    font-size: 18px;
+  #hero h2 {
+    font-size: 1.125em;
+    margin: 40px 0 60px;
   }
-  .post p:first-of-type:first-letter {
-    float: none;
-    font-size: 18px;
-    line-height: 18px;
-    padding: 0;
-    font-weight: 300;
+
+  #hero .button {
+    margin-bottom: 40px;
   }
-  .post img {
-    width: 100%;
-    margin-bottom: 15px;
+
+  #benefits .container ul {
+    max-width: 80%;
+    margin: 0 auto;
   }
-  #sidebar h3 {
-    font-size: 24px;
+
+  blockquote {
+    font-size: 1.125em;
   }
-  #sidebar ul li a, #sidebar p {
-    font-size: 18px;
+
+  footer .logo, footer ul li {
+    margin-bottom: 25px;
   }
-  #sidebar img {
-    display: none;
-  }
+
+
+
 }
+
+
+
+
+
+
+
 
 
