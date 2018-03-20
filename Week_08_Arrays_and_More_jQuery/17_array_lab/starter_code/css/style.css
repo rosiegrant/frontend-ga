@@ -213,3 +213,15 @@ a {
 .petsMoreData li a:hover {
     border-bottom: 1px dotted rgb(10,35,15);
 }
+
+
+.check {
+    height: 30px;
+    width: 30px;
+    display: block;
+    margin-bottom: 20px;
+}
+
+
+
+

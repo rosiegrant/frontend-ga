@@ -25,6 +25,28 @@ var petData = {
             ]
     },
 
+    "hupperman":{
+        "displayName":"Hup",
+        "spaceRequired":"Apartment or House or Office (preferably in Arlington)",
+        "size":"Average",
+        "weight":"who knows",
+        "foods":["Beer","Psyllium Husk","Salty Cookies", "Banana Bread", "Dog Treats, why not"],
+        "idealOwner":['The Consulting Dev Team','Katie','Baby James'],
+        "fitsOnLap":false,
+        "trainability":false,
+        "images":[
+            {"img":"img/animals/hupperman/one.JPG","thumb":"img/animals/hupperman/thumbnails/one-thumb.JPG","alt":"hupperone"},
+            {"img":"img/animals/hupperman/two.JPG","thumb":"img/animals/hupperman/thumbnails/two-thumb.JPG","alt":"huppertwo"},
+            {"img":"img/animals/hupperman/three.JPG","thumb":"img/animals/hupperman/thumbnails/three-thumb.JPG","alt":"Old English Sheepdog"},
+            {"img":"img/animals/hupperman/five.JPG","thumb":"img/animals/hupperman/thumbnails/five-thumb.JPG","alt":"Retired Greyhound Relaxes"}   
+        ],
+        "adoption":[
+            {"name":"Yext","url":"http://www.yext.com"},
+            {"name":"UVA","url":"http://www.uva.edu"},
+            {"name":"Pisan","url":"http://lmgtfy.com/?q=pisan"}
+            ]
+    },
+
     "horse":{
         "displayName":"Horse",
         "spaceRequired":"Farm / Large Field",
