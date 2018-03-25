@@ -42,7 +42,7 @@ var petData = {
         ],
         "adoption":[
             {"name":"Yext","url":"http://www.yext.com"},
-            {"name":"UVA","url":"http://www.uva.edu"},
+            {"name":"UVA","url":"www.virginia.edu"},
             {"name":"Pisan","url":"http://lmgtfy.com/?q=pisan"}
             ]
     },
