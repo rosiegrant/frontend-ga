@@ -16,6 +16,7 @@ jQuery(document).ready(function(){
 
     //check which option is selected 
 	jQuery("#city-type").on('change',function() {
+
 	      if (jQuery("#city-type").val() == "NYC") { //nyc
 	      	jQuery("body").attr("class","nyc");
 	      }
